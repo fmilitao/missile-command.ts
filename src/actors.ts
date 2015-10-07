@@ -20,7 +20,7 @@ module Actors {
     // Actor Base class
     //
 
-    export class Actor {
+    export abstract class Actor {
 
         protected actorID: number;
         protected vx: number;
@@ -73,19 +73,10 @@ module Actors {
             return false;
         }
 
-        // FIXME: typescript 1.6 will allow abstract methods
-        receive(x: Command): Actor {
-            throw "abstract";
-        }
-        accept(v: ActorVisitor): void {
-            throw "abstract";
-        }
-        getRadius(): number {
-            throw "abstract";
-        }
-        onHit(other: Actor): void {
-            throw "abstract";
-        }
+        abstract receive(x: Command): Actor;
+        abstract accept(v: ActorVisitor): void;
+        abstract getRadius(): number;
+        abstract onHit(other: Actor): void;
 
         intersects(a: Actor): boolean {
             if (this === a)
