@@ -13,7 +13,7 @@ URL options (using the format: `?OPTION1=VALUE1&OPTION2=VALUE2`):
 Online demo:
 [(default mode)](http://fmilitao.github.io/missile-command.ts/index.html),
 [(random mode)](http://fmilitao.github.io/missile-command.ts/index.html?maxTick=400&fps=30&left=random&right=random),
-[(fast and long mode)](http://fmilitao.github.io/missile-command.ts/index.html?maxTicks=1000&fps=-1).
+[(fast and longer mode)](http://fmilitao.github.io/missile-command.ts/index.html?maxTick=3000&fps=-1).
 
 Screenshots of the original Java game:
 [screenshot1](http://fmilitao.github.io/missile-command.ts/mc1.png),
