@@ -1,4 +1,4 @@
-#missile-command.ts
+# missile-command.ts
 
 Quick port from Java to TypeScript of an old 15-214 homework. Main difference is that this version is single-threaded so it does not need any synchronization primitives. (Meaning that it does not include the challenging bits of the homework.) Beyond that change, the code remains largely identical except for the drawing code that uses HTML5 canvas instead of Java AWT.
 Only includes the sample commanders. Also note that this version appears to be much more taxing on the CPU than the original Java version.
